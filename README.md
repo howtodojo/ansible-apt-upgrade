@@ -1,10 +1,10 @@
-howtodojo.unzip
+howtodojo.apt-upgrade
 =========
 
-[![Build Status](https://travis-ci.org/howtodojo/ansible-unzip.svg?branch=master)](https://travis-ci.org/howtodojo/ansible-unzip)
+[![Build Status](https://travis-ci.org/howtodojo/ansible-apt-upgrade.svg?branch=master)](https://travis-ci.org/howtodojo/ansible-apt-upgrade)
 
 
-This role install unzip from distribution repository
+This role install apt-upgrade from distribution repository
 
 Requirements
 ------------
@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - role: howtodojo.unzip
+         - role: howtodojo.apt-upgrade
 
 License
 -------

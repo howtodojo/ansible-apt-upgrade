@@ -1,4 +1,4 @@
 ---
-# defaults file for ansible-unzip
+# defaults file for ansible-apt-upgrade
 apt_cache_valid_time: 3600
 apt_upgrade_type: safe
